@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>11C-1.01.01</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1 class="headline">Hogwarts</h1>
+    <div class="dropdowns">
+      <label for="#sort-by">Sort by</label>
+      <select id="sort-by">
+        <option value="none">None</option>
+        <option value="Firstname">Firstname</option>
+        <option value="Lastname">Lastname</option>
+      </select>
+
+      <label for="#filter-by">Filter by</label>
+      <select id="filter-by">
+        <option class="option" value="Alle">Show all</option>
+        <option class="option" value="Hufflepuff">Hufflepuff</option>
+        <option class="option" value="Gryffindor">Gryffindor</option>
+        <option class="option" value="Ravenclaw">Ravenclaw</option>
+        <option class="option" value="Slytherin">Slytherin</option>
+      </select>
+    </div>
+
+    <template
+      ><div class="student">
+        <h2></h2>
+        <h3></h3></div
+    ></template>
+    <div class="studentlist"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
